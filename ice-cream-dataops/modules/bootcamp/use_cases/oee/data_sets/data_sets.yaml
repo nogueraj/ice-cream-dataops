@@ -1,0 +1,2 @@
+- externalId: {{ uc_oee_ds_external_id }}
+  name: Overall_Equipment_Effectiveness_Use_Case
