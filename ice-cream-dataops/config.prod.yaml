@@ -1,5 +1,5 @@
 environment:
-  name: cog-enablement-bootcamp
+  name: prod
   project: cdf-bootcamp-33-prod
   type: prod
   selected: 
@@ -19,8 +19,7 @@ variables:
       IDP_SCOPES: https://westeurope-1.cognitedata.com/.default
       IDP_TOKEN_URL: ${IDP_TOKEN_URL} # replaced by .env
 
-      # GROUPS
-
+      ### GROUPS
       # OBJECT ID FOR TEST/PROD DATA PIPELINE OEE ENTRA GROUP
       data_pipeline_oee_source_id: 43d62c27-6850-4966-86a1-0b8f75c7ca4f
       # OBJECT ID FOR TEST/PROD ADMIN TK ENTRA GROUP
@@ -32,21 +31,14 @@ variables:
       # OBJECT ID FOR TEST/PROD DATA DEVELOPER ENTRA GROUP
       data_developer_source_id: 01537347-30fa-4bfb-b39a-1af446881ebd
 
-      # CLIENT IDS
-
+      ### CLIENT IDS
       data_pipeline_oee_client_id: ${DATA_PIPELINE_OEE_CLIENT_ID} # replaced by .env
       data_pipeline_oee_client_secret: ${DATA_PIPELINE_OEE_CLIENT_SECRET} # replaced by .env
       icapi_extractors_client_id: ${ICAPI_EXTRACTORS_CLIENT_ID} # replaced by .env
       icapi_extractors_client_secret: ${ICAPI_EXTRACTORS_CLIENT_SECRET} # replaced by .env
       
       # Variables shared by modules
-
       icapi_ds_external_id: ds_icapi
       use_cases:
         oee:
           uc_oee_ds_external_id: ds_uc_oee
-
-  selected:
-  - modules/bootcamp/data_foundation
-  - modules/bootcamp/ice_cream_api
-  - modules/bootcamp/use_cases/oee
