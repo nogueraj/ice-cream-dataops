@@ -1,6 +1,6 @@
-externalId: create_asset_hierarchy
+externalId: create_asset_hierarchy1
 dataSetExternalId: {{ icapi_ds_external_id }}
-name: create_asset_hierarchy
+name: create_asset_hierarchy1
 destination:
   type: asset_hierarchy
 ignoreNullFields: true

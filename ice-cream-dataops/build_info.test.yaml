@@ -207,34 +207,34 @@ modules:
         kind: ExtractionPipeline
       transformations:
       - identifier:
-          externalId: create_asset_hierarchy
+          externalId: create_asset_hierarchy1
         source:
-          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/create_asset_hierarchy.schedule.yaml
+          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/create_asset_hierarchy1.schedule.yaml
           hash: fc4fbdfa
         kind: Schedule
       - identifier:
-          externalId: create_asset_hierarchy
+          externalId: create_asset_hierarchy1
         source:
-          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/create_asset_hierarchy.yaml
+          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/create_asset_hierarchy1.yaml
           hash: db0b8c22
         kind: Transformation
         extra_sources:
-        - path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/create_asset_hierarchy.sql
+        - path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/create_asset_hierarchy1.sql
           hash: f9e7ebde
       - identifier:
-          externalId: icapi_assets_ts_contextualization
+          externalId: icapi_assets_ts_contextualization1
         source:
-          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/icapi_assets_ts_contextualization.schedule.yaml
+          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/icapi_assets_ts_contextualization1.schedule.yaml
           hash: 7f836f77
         kind: Schedule
       - identifier:
-          externalId: icapi_assets_ts_contextualization
+          externalId: icapi_assets_ts_contextualization1
         source:
-          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/icapi_assets_ts_contextualization.yaml
+          path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/icapi_assets_ts_contextualization1.yaml
           hash: aeeafa7d
         kind: Transformation
         extra_sources:
-        - path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/icapi_assets_ts_contextualization.sql
+        - path: /Users/jose.noguera@cognitedata.com/work/ice-cream-dataops/ice-cream-dataops/modules/bootcamp/ice_cream_api/transformations/icapi_assets_ts_contextualization1.sql
           hash: bcf4d56b
       auth:
       - identifier:

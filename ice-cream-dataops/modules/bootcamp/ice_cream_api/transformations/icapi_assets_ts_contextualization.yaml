@@ -1,6 +1,6 @@
-externalId: icapi_assets_ts_contextualization
+externalId: icapi_assets_ts_contextualization1
 dataSetExternalId: {{ icapi_ds_external_id }}
-name: icapi_assets_ts_contextualization
+name: icapi_assets_ts_contextualization1
 destination:
   type: timeseries
 ignoreNullFields: true
